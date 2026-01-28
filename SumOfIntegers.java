@@ -17,6 +17,8 @@ int thirdNumber = (number % 10);
 
 if(number > 0 && number < 1000){
 System.out.println("The sum of the digits is: " + sum);  
+}else{
+System.out.println("error");
 }
 }
 }

@@ -11,7 +11,7 @@ import java.util.Scanner;
  double weightInKg = weight * 0.45359237;
  double heightInMeters = height * 0.0254;
 
- double BMI = weightInKg / heightInMeters * heightInMeters;
+ double BMI = (weightInKg / heightInMeters) * heightInMeters;
 
  System.out.println("your BMI is " + BMI);
 }
